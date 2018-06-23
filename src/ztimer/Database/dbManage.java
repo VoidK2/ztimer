@@ -11,8 +11,8 @@ public class dbManage {
         Connection conn = null;
         try{
             Class.forName("com.mysql.jdbc.Driver");
-            String url = "jdbc:mysql://139.219.4.7:3307/ztimer";
-            conn = DriverManager.getConnection(url,"root","27144100");
+            String url = "jdbc:mysql://13.229.72.11:3306/ztimer";
+            conn = DriverManager.getConnection(url,"root","270400");
         }catch (ClassNotFoundException e){
             e.printStackTrace();
         } catch(SQLException e){
