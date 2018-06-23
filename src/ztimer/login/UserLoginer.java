@@ -41,10 +41,7 @@ public class UserLoginer extends HttpServlet {
             System.out.println("登录成功! 账号ID:"+user.getEmailAddress()+"密码:"+user.getUserPasswd());
             response.sendRedirect("./index.html");
         }
-
-
     }
-
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         doPost(request, response);
     }

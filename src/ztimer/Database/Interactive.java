@@ -48,7 +48,7 @@ public class Interactive {
             //这里写的太优美了好吧
             while(rs.next()){
                 judge = new UserModel();
-                judge.setEmailAddress(rs.getString("id"));
+                judge.setEmailAddress(rs.getString("email"));
                 judge.setUserPasswd(rs.getString("pwd"));
             }
         }catch (SQLException e){

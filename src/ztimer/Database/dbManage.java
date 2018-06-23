@@ -20,7 +20,6 @@ public class dbManage {
         }
         return conn;
     }
-
     //关闭数据库连接-无结果
     public void closeDB(Statement sta, Connection conn){
         try{
